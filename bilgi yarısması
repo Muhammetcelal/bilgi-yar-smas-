@@ -1,0 +1,698 @@
+  int soru;
+  int dogru = 0;
+  int yanlıs = 0;
+  int puan = 0;
+ 
+
+  private void button5_Click(object sender, EventArgs e)
+  {
+      soru++;
+      label1.Text = soru.ToString();
+      if (soru == 1)
+      {
+
+
+          richTextBox1.Text = "yıldırım ünvanını alan padişah";
+          label6.Text = " bayezit";
+          button1.Text = " bayezit";
+          button2.Text = "fatih ";
+          button3.Text = " murat";
+          button4.Text = "vahdetin";
+          button5.Enabled = false;
+          button6.Enabled = false;
+          button1.Enabled = true;
+          button2.Enabled = true;
+          button3.Enabled = true;
+          button4.Enabled = true;
+      }
+
+
+      if (soru == 2)
+      {
+
+
+          richTextBox1.Text = "tundra iklimi nedir";
+          label6.Text = " soguktan donmus ot";
+          button1.Text = " sıcaktan sararmıs bitki";
+          button2.Text = "kısa boylu agac ";
+          button3.Text = " soguktan donmus ot";
+          button4.Text = "soguka dayanıklı agac";
+          button5.Enabled = false;
+          button1.Enabled = true;
+          button2.Enabled = true;
+          button3.Enabled = true;
+          button4.Enabled = true;
+          button6.Enabled = false;
+      }
+      if (soru == 3)
+      {
+
+
+          richTextBox1.Text = "araba sevdasının yazarı kimdir";
+          label6.Text = " recaizade mahmut ekrem";
+          button1.Text = " recaizade mahmut ekrem";
+          button2.Text = "orhan pamuk ";
+          button3.Text = " omer seyfetin";
+          button4.Text = "kasgarlı mahmut";
+          button5.Enabled = false;
+          button1.Enabled = true;
+          button2.Enabled = true;
+          button3.Enabled = true;
+          button4.Enabled = true;
+          button6.Enabled = false;
+      }
+      if (soru == 4)
+      {
+
+
+          richTextBox1.Text = "turkiyede en çok gorulen bitki ortusu";
+          label6.Text = " bozkır";
+          button1.Text = " maki";
+          button2.Text = " bozkır";
+          button3.Text = " savana";
+          button4.Text = "cöl";
+          button5.Enabled = false;
+          button1.Enabled = true;
+          button2.Enabled = true;
+          button3.Enabled = true;
+          button4.Enabled = true;
+          button6.Enabled = false;
+      }
+      if (soru == 5)
+      {
+
+
+          richTextBox1.Text = "6 8 ve kac ucgeni?";
+          label6.Text = "10";
+          button1.Text = " 12";
+          button2.Text = "10";
+          button3.Text = " 11";
+          button4.Text = "14";
+          button5.Enabled = false;
+          button1.Enabled = true;
+          button2.Enabled = true;
+          button3.Enabled = true;
+          button4.Enabled = true;
+          button6.Enabled = true;
+      }
+  }
+
+  private void button1_Click(object sender, EventArgs e)
+  {
+      if (label6.Text == button1.Text)
+      {
+          dogru = dogru + 1;
+          label3.Text = dogru.ToString();
+          puan = puan + 3;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+      else
+      {
+          yanlıs = yanlıs + 1;
+          label5.Text = yanlıs.ToString();
+          puan = puan - 2;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+  }
+
+  private void button2_Click(object sender, EventArgs e)
+  {
+      if (label6.Text == button2.Text)
+      {
+          dogru = dogru + 1;
+          label3.Text = dogru.ToString();
+          puan = puan + 3;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+      else
+      {
+          yanlıs = yanlıs + 1;
+          label5.Text = yanlıs.ToString();
+          puan = puan - 2;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  private void button3_Click(object sender, EventArgs e)
+  {
+      if (label6.Text == button3.Text)
+      {
+          dogru = dogru + 1;
+          label3.Text = dogru.ToString();
+          puan = puan + 3;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+      else
+      {
+          yanlıs = yanlıs + 1;
+          label5.Text = yanlıs.ToString();
+          puan = puan - 2;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+
+  }
+
+  private void button4_Click(object sender, EventArgs e)
+  {
+      if (label6.Text == button4.Text)
+      {
+          dogru = dogru + 1;
+          label3.Text = dogru.ToString();
+          puan = puan + 3;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+      else
+      {
+          yanlıs = yanlıs + 1;
+          label5.Text = yanlıs.ToString();
+          puan = puan - 2;
+          label8.Text = puan.ToString();
+          button5.Enabled = true;
+          button1.Enabled = false;
+          button2.Enabled = false;
+          button3.Enabled = false;
+          button4.Enabled = false;
+      }
+  }
+
+  private void button6_Click(object sender, EventArgs e)
+  {
+      Form2 yy = new Form2();
+      if (puan > 7)
+      {
+          yy.Show();
+          this.Hide();
+      }
+      else
+      {
+          MessageBox.Show("puanınız yeterli degil :( tekrar deneyin");
+      }
+  }
+  public partial class Form2 : Form
+  {
+      public Form2()
+      {
+          InitializeComponent();
+
+      }
+      int soru;
+      int puan;
+      int dogru;
+      int yanlıs;
+
+      private void button5_Click(object sender, EventArgs e)
+      {
+          soru++;
+          label1.Text = soru.ToString();
+          if (soru == 1)
+          {
+              richTextBox1.Text = "kalıtımın babası kimdir";
+              label6.Text = "mendel";
+              button1.Text = "tesla";
+              button2.Text = "mendel";
+              button3.Text = "robert";
+              button4.Text = "edison";
+              button5.Enabled = false;
+              button6.Enabled = false;
+
+          }
+          if (soru == 2)
+          {
+              richTextBox1.Text = "en zeki kopek ırkı";
+              label6.Text = "coli";
+              button1.Text = "coli";
+              button2.Text = "bulldog";
+              button3.Text = "golden";
+              button4.Text = "kangal";
+              button5.Enabled = false;
+              button6.Enabled = false;
+              button1.Enabled = true;
+              button2.Enabled = true;
+              button3.Enabled = true;
+              button4.Enabled = true;
+
+
+          }
+          if (soru == 3)
+          {
+              richTextBox1.Text = "Halide Edip Adıvar, Ömer Seyfettin, Yakup Kadri Karaosmanoğlu, Refik Halit Karay hangi edebiyat döneminin sanatçılarıdır?";
+              label6.Text = "Milli";
+              button1.Text = "Cumhuriyet";
+              button2.Text = "Tanzimat";
+              button3.Text = "fetret";
+              button4.Text = "Milli";
+              button5.Enabled = false;
+              button6.Enabled = false;
+              button1.Enabled = true;
+              button2.Enabled = true;
+              button3.Enabled = true;
+              button4.Enabled = true;
+
+
+          }
+          if (soru == 4)
+          {
+              richTextBox1.Text = "Edebiyatımızın ilk edebi romanı hangisidir";
+              label6.Text = "intibah";
+              button1.Text = "intibah";
+              button2.Text = "araba sevdası";
+              button3.Text = " eylul";
+              button4.Text = "gocebe";
+              button5.Enabled = false;
+              button6.Enabled = false;
+              button1.Enabled = true;
+              button2.Enabled = true;
+              button3.Enabled = true;
+              button4.Enabled = true;
+
+
+          }
+          if (soru == 5)
+          {
+              richTextBox1.Text = "Tuz Gölünün hangi illerimizde kıyısı yoktur";
+              label6.Text = "Niğde";
+              button1.Text = "Konya";
+              button2.Text = "Ankara";
+              button3.Text = "Niğde";
+              button4.Text = "Aksaray";
+              button5.Enabled = false;
+              button6.Enabled = true;
+              button1.Enabled = true;
+              button2.Enabled = true;
+              button3.Enabled = true;
+              button4.Enabled = true;
+
+
+          }
+
+      }
+
+      private void button1_Click(object sender, EventArgs e)
+      {
+          if (label6.Text == button1.Text)
+          {
+              dogru = dogru + 1;
+              label3.Text = dogru.ToString();
+              puan = puan + 3;
+              label8.Text = puan.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+
+          }
+          else
+          {
+              yanlıs = yanlıs + 1;
+              puan = puan - 2;
+              label8.Text = puan.ToString();
+              label5.Text = yanlıs.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+
+          }
+      }
+
+      private void button2_Click(object sender, EventArgs e)
+      {
+          if (label6.Text == button2.Text)
+          {
+              dogru = dogru + 1;
+              label3.Text = dogru.ToString();
+              puan = puan + 3;
+              label8.Text = puan.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+          }
+          else
+          {
+              yanlıs = yanlıs + 1;
+              puan = puan - 2;
+              label8.Text = puan.ToString();
+              label5.Text = yanlıs.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+
+          }
+      }
+
+      private void button3_Click(object sender, EventArgs e)
+      {
+          if (label6.Text == button3.Text)
+          {
+              dogru = dogru + 1;
+              label3.Text = dogru.ToString();
+              puan = puan + 3;
+              label8.Text = puan.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+
+          }
+          else
+          {
+              yanlıs = yanlıs + 1;
+              puan = puan - 2;
+              label8.Text = puan.ToString();
+              label5.Text = yanlıs.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+          }
+      }
+
+      private void button4_Click(object sender, EventArgs e)
+      {
+          if (label6.Text == button4.Text)
+          {
+              dogru = dogru + 1;
+              label3.Text = dogru.ToString();
+              puan = puan + 3;
+              label8.Text = puan.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+          }
+          else
+          {
+              yanlıs = yanlıs + 1;
+              puan = puan - 2;
+              label8.Text = puan.ToString();
+              label5.Text = yanlıs.ToString();
+              button1.Enabled = false;
+              button2.Enabled = false;
+              button3.Enabled = false;
+              button4.Enabled = false;
+              button5.Enabled = true;
+
+
+          }
+
+      }
+
+      private void button6_Click(object sender, EventArgs e)
+      {
+
+          if (puan >= 10)
+          {
+              Form4 yy = new Form4();
+              MessageBox.Show("tebrikler yine kazandiniz");
+              yy.Show();
+          }
+          else
+          {
+              MessageBox.Show("uzgunum basaramadiniz");
+              this.Close();
+          }  
+
+      }
+  }
+  }
+    public partial class Form4 : Form
+    {
+        public Form4()
+        {
+            InitializeComponent();
+        }
+        int soru;
+        int puan;
+        int dogru;
+        int yanlıs;
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            soru++;
+            label1.Text = soru.ToString();
+            if (soru == 1)
+            {
+
+                MessageBox.Show("yeni lvle hos geldiniz");
+                richTextBox1.Text = "rusların alfabesinin adı nedir?";
+                label6.Text = "kırıl";
+                button1.Text = "kırıl";
+                button2.Text = "antik dil";
+                button3.Text = "resimlerle anlasıyorlar";
+                button4.Text = "hicbiri";
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button1.Enabled = true;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                button4.Enabled = true;
+            }
+            if (soru == 2)
+            {
+                richTextBox1.Text = "japonların kac alfabesi vardır";
+                label6.Text = "3";
+                button1.Text = "4";
+                button2.Text = "1";
+                button3.Text = "3";
+                button4.Text = "2";
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button1.Enabled = true;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                button4.Enabled = true;
+            }
+            if (soru == 3)
+            {
+                richTextBox1.Text = "süperlig 2024 endegerli kadro hangi takımıdır";
+                label6.Text = "fenerbahce";
+                button1.Text = "besiktas";
+                button2.Text = "galatasaray";
+                button3.Text = "fenerbahce";
+                button4.Text = "trabzon";
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button1.Enabled = true;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                button4.Enabled = true;
+            }
+            if (soru == 4)
+            {
+                richTextBox1.Text = "fetret devri hangi savasla basladı";
+                label6.Text = "ankara";
+                button1.Text = "ankara";
+                button2.Text = "otluklubeli";
+                button3.Text = "2nci kosova muharebesi";
+                button4.Text = " caldıran";
+                button5.Enabled = false;
+                button6.Enabled = false;
+                button1.Enabled = true;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                button4.Enabled = true;
+            }
+            if (soru == 5)
+            {
+                richTextBox1.Text = "2024 yılında uefa champions lig kupasını hangi takım kazandı";
+                label6.Text = "real madrid";
+                button1.Text = "barcelona";
+                button2.Text = "real madrid";
+                button3.Text = "dortmund";
+                button4.Text = "manchester city";
+                button5.Enabled = false;
+                button6.Enabled = true;
+                button1.Enabled = true;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                button4.Enabled = true;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (label6.Text == button1.Text)
+            {
+                dogru = dogru + 1;
+                label3.Text = dogru.ToString();
+                puan = puan + 3;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+            }
+            else
+            {
+                yanlıs = yanlıs + 1;
+                label5.Text = yanlıs.ToString();
+                puan = puan - 2;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (label6.Text == button2.Text)
+            {
+                dogru = dogru + 1;
+                label3.Text = dogru.ToString();
+                puan = puan + 3;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+            }
+            else
+            {
+                yanlıs = yanlıs + 1;
+                label5.Text = yanlıs.ToString();
+                puan = puan - 2;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (label6.Text == button3.Text)
+            {
+                dogru = dogru + 1;
+                label3.Text = dogru.ToString();
+                puan = puan + 3;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+            }
+            else
+            {
+                yanlıs = yanlıs + 1;
+                label5.Text = yanlıs.ToString();
+                puan = puan - 2;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (label6.Text == button4.Text)
+            {
+                dogru = dogru + 1;
+                label3.Text = dogru.ToString();
+                puan = puan + 3;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+            }
+            else
+            {
+                yanlıs = yanlıs + 1;
+                label5.Text = yanlıs.ToString();
+                puan = puan - 2;
+                label8.Text = puan.ToString();
+                button5.Enabled = true;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (puan == 15)
+            {
+                MessageBox.Show("tebrikler kazandınız");
+                this.Close();
+            }
+          
+        }
+    }
+}    
